@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Products</title>
+  <link rel="icon" type"image/jpg" href="https://i.imgur.com/Kzqrvrm.jpg">
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: #fefee3;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+
+    .about-section {
+      padding: 30px;
+      text-align: center;
+      background-color: #62c965;
+      color: white;
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+
+
+
+  <body>
+    <div class="about-section">
+      <h1>Community</h1>
+      <p>See what our users have to say about our products</p>
+    </div>
+
+  <h2 style="text-align:center">&nbsp</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/503000018/photo/happy-asian-girl-student-balancing-stack-of-books-on-head.jpg?s=612x612&w=0&k=20&c=mZRXvZkRYgWkRtGwJaV9i5vm1-4svvhHOonTwK5flf0=" alt="Goofy" width=100%>
+          <div class="container">
+            <h2>Gyan Roh</h2>
+            <p style="color:green"class="title">Student and Streamer</p>
+            <p style="font-size:25px">These products are amazing! It helps me keep my studies in check while simultaneously streaming on the side.</p>
+            <p style="font-size:18px">gremlingoblin420@gmail.com</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/926369970/photo/playing-the-guitar-with-my-brother.jpg?s=612x612&w=0&k=20&c=QRD5R8Y0WRsdTbD22pH3b9cza0KFf5Ei8vDFI1c4enM=" alt="auno" width=100%>
+          <div class="container">
+            <h2>Hei Wern</h2>
+            <p style="color:green"class="title">Music Student</p>
+            <p style="font-size:25px">This product helped in maintaining my music studies while teaching kids on the side.</p>
+            <p style="font-size:18px">weewerwindows@gmail.com</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/1203044193/photo/relaxed-calm-african-businessman-resting-sit-at-office-desk.jpg?s=612x612&w=0&k=20&c=7oGbNyK1_VxW4RZZVwEblU3WrN20PHEbS7EohY695Pw=" alt="khan" width=100%>
+          <div class="container">
+            <h2>Kiman Ahan</h2>
+          <p style="color:green" class="title">Future Diplomat</p>
+            <p style="font-size:25px">Unlike most laggy options availabe, this helps me manage my workload and its insane schedule.</p>
+            <p style="font-size:18px">coonery69@gmail.com</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  </html>

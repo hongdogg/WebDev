@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Products</title>
+  <link rel="icon" type"image/jpg" href="https://i.imgur.com/Kzqrvrm.jpg">
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: #fefee3;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+
+    .about-section {
+      padding: 30px;
+      text-align: center;
+      background-color: #62c965;
+      color: white;
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #4c956c;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="about-section">
+      <h1>Products</h1>
+      <p>Explore our Products and it's information</p>
+    </div>
+
+
+
+    <h2 style="text-align:center">Products Available</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/1007014282/vector/certificate-icon-flat.jpg?s=612x612&w=0&k=20&c=sTOqADG1pIbg-iSpb1oAJWEVap38de2tHi2d9jVoKL4=" alt="profile icon" width=100%>
+          <div class="container">
+            <h2>Certificate Management</h2>
+            <p>Allows Certificates to be added to your profile</p>
+            <li>A way for Students to show off their strongest achivements</li>
+            <p><button class="button">ADD TO CART</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/1198430065/vector/attendance-concept-vector-flat-design.jpg?s=612x612&w=0&k=20&c=Q21HKmopEQcN1mhGYNPzRYMWtjla-C-eyGyVEPpoJ5w=" alt="profile icon" width=100%>
+          <div class="container">
+            <h2>Attendance Management</h2>
+            <p>Allows Attendances to be added to your profile</p>
+          <li> Show off your punctuality rate in your profile </li>
+            <p><button class="button">ADD TO CART</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/1183367136/vector/approve-icons-editable-stroke-pixel-perfect-for-mobile-and-web-contains-such-icons-as.jpg?s=612x612&w=0&k=20&c=aXK6_01eJfTN3H707DZEnTBWaREBW4RXo73d3EncqsU=" alt="profile icon" width=100%>
+          <div class="container">
+            <h2>Subject Management</h2>
+            <p>This is the basis of your profile</p>
+            <li>Shows your current Subjects</li>
+            <p><button class="button">FREE</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  </html>

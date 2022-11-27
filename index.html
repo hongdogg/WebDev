@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blocolli</title>
+    <link rel="icon" type"image/jpg" href="https://i.imgur.com/Kzqrvrm.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+       <h1>BLOCOLLI</h1>
+
+       <section class="menu">
+           <ul class="menu-list">
+               <li>Home</li>
+               <li><a href="product.html">Products</a></li>
+               <li><a href="community.html">Community</li>
+               <li><a href="about.html">About Us</a></li>
+           </ul>
+
+           <button>
+               <i class="fas fa-times"></i>
+               <i class="fas fa-bars"></i>
+           </button>
+       </section>
+   </header>
+
+   <section class="main">
+
+        <section class="left">
+            <p class="title">A blockchain based profile</p>
+            <p class="msg">Blocolli is a blockchain solution which help students to create profile consists important information such as attendance, academic results, certificates, etc.</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="https://i.imgur.com/lW5t64Z.png" alt="landing img">
+        </section>
+
+    </section>
+
+    <script>
+      var menu = document.querySelector('.menu');
+      var menuBtn = document.querySelector('.menu button');
+      menuBtn.addEventListener('click', () => {
+          menu.classList.toggle('opened')
+      })
+  </script>
+  </body>
+</html>
